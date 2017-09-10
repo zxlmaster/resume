@@ -1,6 +1,6 @@
 <template>
   <div class="control">
-    <div class="tags has-addons">
+    <div class="tags has-addons is-mobile-margin">
       <span class="tag">
         <icon v-if="icon" size="small" :icon="icon"></icon>
         <span v-else>{{ title }}</span>
@@ -33,3 +33,11 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+  @media screen and (max-width: 768px) {
+    .is-mobile-margin {
+      margin-top: 10px;
+    }
+  }
+</style>
