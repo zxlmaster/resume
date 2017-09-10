@@ -1,10 +1,16 @@
 <template>
   <div class="resume-box">
-    <h3>{{content.name}}</h3>
+
+    <h3 v-if="content.href">
+      <a :href="content.href">{{content.name}}</a>
+    </h3>
+    <h3 v-else>{{content.name}}</h3>
+
     <p v-if="showTime" class="time">{{ time }}</p>
     <ul v-for="desc in content.description">
       <li>{{ desc }}</li>
     </ul>
+
   </div>
 </template>
 
