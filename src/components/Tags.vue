@@ -1,26 +1,29 @@
 <template>
   <div class="resume-tags tags field is-grouped columns is-centered">
-    <tag v-for="(item, index) in tags"
+    <tag
+      v-for="(item, index) in tags"
       :key="index"
       :title="item.title"
       :icon="item.icon"
       :content="item.content"
-      :colour="colour"></tag>
+      :href="item.href"
+      :colour="colour"
+    ></tag>
   </div>
 </template>
 
 <script>
-import Tag from '@/components/Tag';
+import Tag from "@/components/Tag";
 
 export default {
-  name: 'Tags',
+  name: "Tags",
   props: {
     tags: Object,
-    colour: String,
+    colour: String
   },
   components: {
-    tag: Tag,
-  },
+    tag: Tag
+  }
 };
 </script>
 

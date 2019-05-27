@@ -18,7 +18,8 @@ export default {
   social: {
     qq: {
       icon: 'qq',
-      content: 'http://wpa.qq.com/msgrd?v=3&uin=326277403&site=qq&menu=yes',
+      content: '326277403',
+      href: 'http://wpa.qq.com/msgrd?v=3&uin=326277403&site=qq&menu=yes',
     },
     email: {
       icon: 'envelope',
