@@ -13,7 +13,7 @@ export default {
     juejin: {
       title: '掘金',
       content: '掘金优秀作者',
-    }
+    },
   },
   social: {
     qq: {
