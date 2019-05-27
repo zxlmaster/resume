@@ -1,19 +1,23 @@
 export default [
   {
-    name: 'csslint 中文指南',
-    href: 'https://github.com/zhangxiangliang/csslint-chinese-guide',
+    name: '每日 30 秒',
+    href: 'https://github.com/pushmetop/30-seconds-for-everyday',
     description: [
-      '翻译 csslint 的官方文档',
-      '对文档中的配置项进行翻译',
-      '添加了一些自己的观点',
+      '一个分享前端开发经验的仓库',
     ],
   },
   {
-    name: 'Starbucks 小程序',
-    href: 'https://github.com/zhangxiangliang/wxapp-starbucks',
+    name: '什么值得读',
+    href: 'https:// github.com/pushmetop/reading-lists',
     description: [
-      '对原版本的小程序进行组件化',
-      '合理的改造项目的结构',
+      '推荐一些值得大家一读的文章、视频、书籍等',
+    ],
+  },
+  {
+    name: '轻松学理财',
+    href: 'https://github.com/pushmetop/personal-financial-planning',
+    description: [
+      '介绍一些基础的理财知识',
     ],
   },
   {

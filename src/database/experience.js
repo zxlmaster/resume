@@ -15,12 +15,22 @@ export default [
     name: '微联（厦门）信息科技有限公司',
     time: {
       start: '2016-12',
-      end: '至今',
+      end: '2018-08-15',
     },
     description: [
       'API的设计与开发',
       '后台的搭建与维护',
       '负责前端开发与后端对接',
+    ],
+  },
+  {
+    name: 'PushMeTop',
+    time: {
+      start: '2018-08-15',
+      end: '至今',
+    },
+    description: [
+      '自由职业、兼职、外包、远程办公',
     ],
   },
 ];

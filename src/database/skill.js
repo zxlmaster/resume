@@ -23,6 +23,7 @@ export default [
       '了解 ES5、ES6 部分特性',
       '对前后端分离有一定了解',
       '对 DOM 操作 和 jQuery 有一定了解',
+      '小程序有一定了解',
     ],
   },
   {
@@ -34,7 +35,7 @@ export default [
     ],
   },
   {
-    name: 'DataBase',
+    name: 'Database',
     description: [
       '了解 MySQL 对索引有所认识',
       '了解 Redis 对缓存使用场景有所认识',
